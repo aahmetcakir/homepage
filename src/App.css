@@ -6,7 +6,16 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+.mail{
+  color: #61dafb;
+  text-decoration: none;
+}
+.links{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 30px;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
