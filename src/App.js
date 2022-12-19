@@ -1,8 +1,15 @@
 import './App.css';
+import { Helmet } from 'react-helmet';
 
 function App() {
+
+  const TITLE = 'Ahmet ÇAKIR';
+
   return (
     <div className="App">
+      <Helmet>
+        <title>{TITLE}</title>
+      </Helmet>
       <header className="App-header">
         <h1>Ahmet ÇAKIR</h1>
         <div className='links'>
